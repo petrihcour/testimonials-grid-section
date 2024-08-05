@@ -57,11 +57,12 @@ font-semibold (600)
 
 
 <body class="min-h-screen	text-xs font-barlow font-medium bg-light-blue flex flex-col justify-between items-center">
-  <main class="px-6 py-14">
-    <div class="grid grid-cols-1 gap-6">
+  <main class="px-6 py-14 md:py-36">
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 max-w-6xl lg:grid-rows-2">
 
       <!-- purple card -->
-      <div class="relative bg-blue-violet text-light-gray rounded-lg px-8 py-7 space-y-3">
+      <div
+        class="relative bg-blue-violet text-light-gray rounded-lg px-8 py-7 space-y-3 md:col-span-2 md:row-span-1 md:order-1 flex flex-col justify-normal ">
 
         <div class="flex items-center">
           <img src="images/image-daniel.jpg" alt="icon of daniel"
@@ -72,7 +73,7 @@ font-semibold (600)
           </div>
         </div>
 
-        <div class="absolute top-0 right-0 z-10 transform -translate-y-3 -translate-x-6">
+        <div class="absolute top-0 right-0 z-10 transform -translate-y-3 -translate-x-6 md:-translate-x-20">
           <img src="images/bg-pattern-quotation.svg" alt="quotation marks icon" />
         </div>
 
@@ -91,7 +92,8 @@ font-semibold (600)
 
       <!-- gray card -->
 
-      <div class="bg-gray text-light-gray rounded-lg px-8 py-7 space-y-3">
+      <div
+        class="bg-gray text-light-gray rounded-lg px-8 py-7 space-y-3 md:order-2 md:col-span-1 md:row-span-1 flex flex-col justify-normal">
 
         <div class="flex items-center">
           <img src="images/image-jonathan.jpg" alt="icon of jonathan"
@@ -112,7 +114,8 @@ font-semibold (600)
 
       <!-- white card -->
 
-      <div class="bg-white text-gray rounded-lg px-8 py-7 space-y-3">
+      <div
+        class="bg-white text-gray rounded-lg px-8 py-7 space-y-3 md:order-4 md:col-span-1 md:row-span-1 flex flex-col justify-evenly">
 
         <div class="flex items-center">
           <img src="images/image-jeanette.jpg" alt="icon of jeanette"
@@ -133,7 +136,8 @@ font-semibold (600)
 
       <!-- black card -->
 
-      <div class="bg-black text-white rounded-lg px-8 py-7 space-y-3">
+      <div
+        class="bg-black text-white rounded-lg px-8 py-7 space-y-3 md:order-5 md:col-span-2 md:row-span-1 flex flex-col justify-around">
 
         <div class="flex items-center">
           <img src="images/image-patrick.jpg" alt="icon of patrick"
@@ -157,7 +161,8 @@ font-semibold (600)
 
       <!-- white card -->
 
-      <div class="bg-white text-gray rounded-lg px-8 py-7 space-y-3">
+      <div
+        class="bg-white text-gray rounded-lg px-8 py-7 space-y-3 md:order-3 md:row-span-2 flex flex-col justify-around">
 
         <div class="flex items-center">
           <img src="images/image-kira.jpg" alt="icon of kira" class="rounded-full border-2 border-white size-10" />
